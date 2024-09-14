@@ -11,9 +11,7 @@ fabric-1.20.1:
     }
     
     dependencies {
-    
-         modImplementation "curse.maven:indium-459496:4572105"  // .18 version
-        
+         modImplementation "curse.maven:indium-459496:5493195"  // Updated to latest version
     }
   update_files:
     - ~

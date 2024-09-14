@@ -13,13 +13,13 @@ fabric-1.20.1:
     
     dependencies {
            
-          modImplementation "curse.maven:geckolib-388172:4756690"
+          // modImplementation "curse.maven:geckolib-388172:4756690"
            
-          modImplementation "curse.maven:bookshelf-228525:5084134"       
+          modImplementation "curse.maven:bookshelf-228525:5423988" // Updated to latest version     
     
-          modImplementation "curse.maven:cloth-config-348521:4973440"
+          modImplementation "curse.maven:cloth-config-348521:4973440" // Same as original version 
     
-          modImplementation "net.fabricmc:fabric-language-kotlin:1.10.18+kotlin.1.9.22"
+          modImplementation "curse.maven:fabric-language-kotlin-308769:5655463" // Updated to latest version
       
     }
   update_files:

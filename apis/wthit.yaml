@@ -11,8 +11,8 @@ fabric-1.20.1:
     }
     
     dependencies {
-         modImplementation "curse.maven:wthit-440979:5109480"
-         modImplementation "curse.maven:badpackets-615134:4784394"
+        modImplementation "curse.maven:wthit-440979:5721800" // Updated to latest version
+        modImplementation "curse.maven:badpackets-615134:4784394" // Updated to latest version
     }
   update_files:
     - ~

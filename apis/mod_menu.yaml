@@ -1,14 +1,16 @@
 ---
 fabric-1.20.1:
   gradle: |
-    repositories {
+   repositories {
         maven {
-            url = "https://api.modrinth.com/maven"
+            url "https://cursemaven.com"
+         content {
+             includeGroup "curse.maven"
         }
     }
     
     dependencies {
-     modImplementation "maven.modrinth:mOgUt4GM:RTFDnTKf"
+     modImplementation "curse.maven:modmenu-308702:5162837" // Updated to latest version
     }
   update_files:
     - ~

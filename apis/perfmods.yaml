@@ -8,16 +8,16 @@ fabric-1.20.1:
                 includeGroup "curse.maven"
             }
         }
-        maven { url 'https://jitpack.io' }
-       maven {
-            url "https://maven.terraformersmc.com/"
-        }
-        maven {
-            url "https://maven.shedaniel.me/"
-        }
-        maven {
-            url "https://maven.isxander.dev/releases"
-        }
+       /* maven { url 'https://jitpack.io' }
+       * maven {
+       *     url "https://maven.terraformersmc.com/"
+       * }
+       * maven {
+       *     url "https://maven.shedaniel.me/"
+       * }
+       * maven {
+       *     url "https://maven.isxander.dev/releases"
+        } */
     
        maven {
             url = "https://api.modrinth.com/maven"
@@ -26,17 +26,17 @@ fabric-1.20.1:
     
     dependencies {
     
-        modLocalRuntime "maven.modrinth:sodium:mc1.20-0.4.10"
+        modLocalRuntime "curse.maven:sodium-394468:5485654"  // Updated to latest version
     
-       modImplementation "maven.modrinth:uXXizFIs:unerR5MN"
+        modImplementation "maven.modrinth:uXXizFIs:unerR5MN" // Same for now until I know what mod is it
     
-        modImplementation "curse.maven:lithium-360438:4765724"
+        modImplementation "curse.maven:lithium-360438:4765724" // Updated to latest version
     
-        modLocalRuntime "curse.maven:lazydfu-433518:3821870"
+        modLocalRuntime "curse.maven:lazydfu-433518:3821870" // Same as original version
     
-       // modApi "com.github.tr7zw:EntityCulling:1.6.2-1.20.2"
+       // modApi "curse.maven:entityculling-448233:5672090"
     
-        modImplementation "curse.maven:starlight-521783:4572096"
+        modImplementation "curse.maven:starlight-521783:4572096" // Same as original version
     }
   update_files:
     - ~
