@@ -1,7 +1,8 @@
 {
-  "id": "creatorsessentials",
+  "id": "creators_essentials",
   "weight": 30,
-  "minversion": 0,
+  "minversion": 202300451120,
+  "maxversion": 202400199999,
   "info": {
     "name": "Creator's Essentials",
     "version": "1.0",
