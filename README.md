@@ -17,7 +17,7 @@
      - Bookshelf
      - Cloth Config
      - Fabric Kotlin Language
-  - FixerMods (Not updated as of now, 1.0a)
+  - FixerMods (Not updated as of now, v1.0a)
      - TooltipFix
      - ModernFix
      - AttributeFix
